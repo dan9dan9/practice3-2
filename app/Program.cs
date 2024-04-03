@@ -25,4 +25,8 @@ class Program
     {
         return a - b;
     }
+    static double MultiplyNumbers(double a, double b)
+    {
+        return a * b;
+    }
 }
