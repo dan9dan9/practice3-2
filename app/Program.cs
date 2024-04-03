@@ -12,21 +12,24 @@ class Program
 
         Console.WriteLine("Сумма чисел: " + AddNumbers(num1, num2));
         Console.WriteLine("Разность чисел: " + SubtractNumbers(num1, num2));
-        Console.WriteLine("Произведение чисел: " + lllMultiplyNumbers(num1, num2));
+        Console.WriteLine("Произведение чисел: " + MultiplyNumbers(num1, num2));
         //Console.WriteLine("Частное чисел: " + DivideNumbers(num1, num2));
 
         Console.ReadLine();
     }
+
     static double AddNumbers(double a, double b)
     {
         return a + b;
     }
-    static double SubtractNumbers(double c, double d)
+
+    static double SubtractNumbers(double a, double b)
     {
-        return c - d;
+        return a - b;
     }
-    static double lllMultiplyNumbers(double c, double d)
+
+    static double MultiplyNumbers(double a, double b)
     {
-        return c * d;
+        return a * b;
     }
 }
