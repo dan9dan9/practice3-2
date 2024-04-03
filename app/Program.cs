@@ -10,9 +10,9 @@ class Program
         Console.Write("Введите второе число: ");
         num2 = Convert.ToDouble(Console.ReadLine());
 
-        //Console.WriteLine("Сумма чисел: " + AddNumbers(num1, num2));
-        //Console.WriteLine("Разность чисел: " + SubtractNumbers(num1, num2));
-        //Console.WriteLine("Произведение чисел: " + MultiplyNumbers(num1, num2));
+        Console.WriteLine("Сумм+ чисел: " + AddNumbers(num1, num2));
+        Console.WriteLine("Разност- чисел: " + SubtractNumbers(num1, num2));
+        Console.WriteLine("Произведени* чисел: " + MultiplyNumbers(num1, num2));
         //Console.WriteLine("Частное чисел: " + DivideNumbers(num1, num2));
 
         Console.ReadLine();
@@ -21,12 +21,12 @@ class Program
     {
         return a + b;
     }
-    static double SubtractNumbers(double a, double b)
+    static double SubtractNumbers(double a, double y)
     {
-        return a - b;
+        return a - y;
     }
-    static double MultiplyNumbers(double a, double b)
+    static double MultiplyNumbers(double a, double y)
     {
-        return a * b;
+        return a * y;
     }
 }
