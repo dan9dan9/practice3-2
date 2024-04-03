@@ -13,7 +13,7 @@ class Program
         Console.WriteLine("Сумма чисел: " + AddNumbers(num1, num2));
         Console.WriteLine("Разность чисел: " + SubtractNumbers(num1, num2));
         Console.WriteLine("Произведение чисел: " + MultiplyNumbers(num1, num2));
-        //Console.WriteLine("Частное чисел: " + DivideNumbers(num1, num2));
+        Console.WriteLine("Частное чисел: " + DivideNumbers(num1, num2));
 
         Console.ReadLine();
     }
@@ -31,5 +31,17 @@ class Program
     static double MultiplyNumbers(double a, double b)
     {
         return a * b;
+    }
+    static double DivideNumbers(double a, double b)
+    {
+        if (b != 0)
+        {
+            return a / b;
+        }
+        else
+        {
+            Console.WriteLine("Ошибка: деление на ноль!");
+            return double.NaN; 
+        }
     }
 }
