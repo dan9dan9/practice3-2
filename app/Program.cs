@@ -21,4 +21,8 @@ class Program
     {
         return a + b;
     }
+    static double SubtractNumbers(double a, double b)
+    {
+        return a - b;
+    }
 }
