@@ -17,4 +17,8 @@ class Program
 
         Console.ReadLine();
     }
+    static double AddNumbers(double a, double b)
+    {
+        return a + b;
+    }
 }
